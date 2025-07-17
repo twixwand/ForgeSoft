@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Jura;
+    src: url('./fonts/Jura-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+  font-family: 'Jura';
+  src: url('./fonts/Jura-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Jura';
+	src: url('./fonts/Jura-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Jura';
+	src: url('./fonts/Jura-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Jura, sans-serif;
+    background-color: #f6f6f6;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: none;    
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER STYLES*/
+
+.header {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 16px 72px 16px 72px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 405px;
+}
+
+.logo {
+    width: 156px;
+    height: 36px;
+    display: inline-block;
+}
+
+.header__navigation {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    align-items: center;
+    white-space: none;
+    gap: 48px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.header__button {
+    font-family: Jura, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #474747;
+    background: #ffffff;
+    padding: 10px 16px;
+    border-radius: 32px;
+    border: 1px solid #2E3133;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__button a {
+    text-decoration: none;
+}
+
+/* MAIN STYLES */
+
+.hero__title {
+    text-align: start;
+    font-size: 80px;
+    line-height: 78px;
+    font-weight: 700;
+    padding: 0 72px 0 72px;
+    margin: 96px 0 72px 0;
+}
+
+.hero__titleText {
+    color: #474747;
+}
+
+.hero__titleText-primary {
+    color: #FFAB5D;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+
+.hero__content__image {
+    width: 33.33%;
+}
+
+.hero__content__elem2 {
+    background: #474747;
+    width: 33.33%;
+    text-align: left;
+    color: #ffffff;
+    padding: 32px 24px;
+}
+
+.hero__content__Lightning_icon {
+    padding-bottom: 72px;
+}
+
+.hero__content__elem2Text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.hero__content__elem3 {
+    background: #FFAB5D;
+    width: 33.33%;
+    height: 293px;
+}
+
+.hero__content__elem3__contact_link {
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__content__elem3__contact_link a{
+    display: flex;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    gap: 12px;
+    padding: 32px 72px 209px 148px;
+}
+
+.hero__content__elem3__contact_link a:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    color: #E97306;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin:0;
+}
