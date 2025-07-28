@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 @font-face {
     font-family: Jura;
     src: url('./fonts/Jura-Regular.woff2') format('woff2');
@@ -30,8 +32,8 @@
 body {
     font-family: Jura, sans-serif;
     background-color: #f6f6f6;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
     overflow-x: none;    
     text-decoration: none;
 }
@@ -60,6 +62,7 @@ a {
 .header__navigation {
     align-items: center;
     text-decoration: none;
+        box-sizing: border-box;
 }
 
 nav ul {
