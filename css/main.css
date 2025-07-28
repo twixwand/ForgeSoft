@@ -167,7 +167,7 @@ nav ul li a:hover {
     gap: 12px;
 }
 
-.hero__content__orange-block-active_element a:hover {
+.hero__content__orange-block__active-element a:hover {
     transform: scale(1.05);
 }
 
