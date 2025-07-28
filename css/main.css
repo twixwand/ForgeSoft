@@ -1,29 +1,27 @@
-@import "./reset.css";
-
 @font-face {
-    font-family: Jura;
-    src: url('./fonts/Jura-Regular.woff2') format('woff2');
+    font-family: 'Jura';
+    src: url('../fonts/Jura-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
     font-display: swap;
 }
 @font-face {
   font-family: 'Jura';
-  src: url('./fonts/Jura-Medium.woff2') format('woff2');
+  src: url('..fonts/Jura-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
     font-display: swap;
 }
 @font-face {
 	font-family: 'Jura';
-	src: url('./fonts/Jura-SemiBold.woff2') format('woff2');
+	src: url('../fonts/Jura-SemiBold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
     font-display: swap;
 }
 @font-face {
 	font-family: 'Jura';
-	src: url('./fonts/Jura-Bold.woff2') format('woff2');
+	src: url('../fonts/Jura-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
     font-display: swap;
@@ -49,7 +47,6 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     justify-content: space-between;
     align-items: center;
-    gap: 405px;
     padding: 16px 72px;
 }
 
@@ -60,9 +57,8 @@ a {
 }
 
 .header__navigation {
-    align-items: center;
     text-decoration: none;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -105,19 +101,15 @@ nav ul li a:hover {
 /* MAIN STYLES */
 
 .hero__title {
-    text-align: start;
     font-size: 5rem;
     line-height: 78px;
     font-weight: 700;
     padding: 0 72px 0 72px;
     margin: 96px 0 72px 0;
-}
-
-.hero__title__text {
     color: #474747;
 }
 
-.hero__title__text--primary {
+.hero__title-phrase {
     color: #FFAB5D;
 }
 
@@ -127,46 +119,45 @@ nav ul li a:hover {
     margin-bottom: 96px;
 }
 
-.hero__content__image--hero-bg {
-    width: 41.53%;
-    background: #FFEF9C;
-    background: #FFD7B2;
+.hero__content__image-hero-bg {
+    width: 33.33%;
+    background-image: url("/images/rectangle-3.png")
 }
 
-.hero__content__black_block {
+.hero__content__black-block {
     background: #474747;
-    width: 29.58%;
+    width: 33.33%;
     text-align: left;
     color: #ffffff;
     padding: 32px 24px;
 }
 
-.hero__content--lightning_icon {
+.hero__content__lightning-icon {
     padding-bottom: 72px;
 }
 
-.hero__content__black_block__text p{
+.hero__content__black-block__text p{
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 24px;
     margin: 0;
 }
 
-.hero__content__orange_block {
+.hero__content__orange-block {
     background: #FFAB5D;
-    width: 28.89%;
+    width: 33.33%;
     text-align: left;
     color: #ffffff;
 }
 
-.hero__content__orange_block--active_element {
+.hero__content__orange-block__active-element {
     text-align: start;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 32px 72px 209px 148px;
+    padding: 32px 0 209px 148px;
 }
 
-.hero__content__orange_block--active_element a{
+.hero__content__orange-block__active-element a{
     display: inline-flex;
     transition: transform 0.3s ease;
     transform-origin: center;
@@ -176,7 +167,7 @@ nav ul li a:hover {
     gap: 12px;
 }
 
-.hero__content--active_element a:hover {
+.hero__content__orange-block-active_element a:hover {
     transform: scale(1.05);
 }
 
