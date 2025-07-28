@@ -120,8 +120,9 @@ nav ul li a:hover {
 }
 
 .hero__content__image-hero-bg {
-    width: 33.33%;
-    background-image: url("/images/rectangle-3.png")
+    width: 598px;
+    background-image: url("/images/rectangle-3.png");
+    background-size: cover;
 }
 
 .hero__content__black-block {
